@@ -13,6 +13,7 @@
 
 @media (min-width: 992px) {
   #sideNav {
+    border-right: 5px solid $black;
     text-align: center;
     position: fixed;
     top: 0;
@@ -53,5 +54,18 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 300px) {
+  .navbar-collapse,
+  #sideNav {
+    background-color: $black;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-collapse,
+  #sideNav {
+    background-color: unset;
   }
 }

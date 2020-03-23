@@ -1,5 +1,7 @@
 "use strict"; // Start of use strict
 
+GitHubCalendar(".calendar", "mohamedzakigithub", { responsive: true });
+
 // Smooth scrolling using jQuery easing
 $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
   if (

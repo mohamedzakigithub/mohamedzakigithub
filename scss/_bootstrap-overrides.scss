@@ -6,6 +6,10 @@
   color: $primary !important;
 }
 
+.btn-primary {
+  background-color: $primary !important;
+}
+
 a {
   color: $primary;
   &:hover,
@@ -13,4 +17,8 @@ a {
   &:active {
     color: darken($primary, 15%);
   }
+}
+
+.text-muted {
+  color: #ffffff !important;
 }
