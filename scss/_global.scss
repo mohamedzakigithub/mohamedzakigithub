@@ -1,14 +1,12 @@
-// Global styling for this template
-
 body {
   @include body-font;
   padding-top: 54px;
-  color: $white;
+  color: white;
 }
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: $sidebar-base-width;
+    padding-left: 17rem;
   }
 }
 
@@ -21,7 +19,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $white;
+  color: white;
 }
 
 h1 {
@@ -54,8 +52,8 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $white;
-    color: $white !important;
+    background-color: white;
+    color: black !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
@@ -65,7 +63,7 @@ p.lead {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      background-color: black;
     }
   }
 }
@@ -74,7 +72,7 @@ p.lead {
   font-size: 3rem;
   .list-inline-item i {
     &:hover {
-      color: $primary;
+      color: gray;
     }
   }
 }
