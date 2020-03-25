@@ -1,5 +1,6 @@
 "use strict"; // Start of use strict
 
+// GitHubCalendar Initialization
 GitHubCalendar(".calendar", "mohamedzakigithub", { responsive: true });
 
 // Smooth scrolling using jQuery easing
