@@ -303,7 +303,11 @@ p.lead {
 @media (min-width: 992px) {
   .navbar-collapse,
   #sideNav {
+<<<<<<< HEAD
     background-color: unset;
+=======
+    background-color: black;
+>>>>>>> 41a4517eb8fe388a8262ca65338d0f5686cbe0e3
   }
 }
 section.resume-section {
@@ -348,7 +352,11 @@ body {
 }
 
 body::after {
+<<<<<<< HEAD
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%),
+=======
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 100%, black 100%),
+>>>>>>> 41a4517eb8fe388a8262ca65338d0f5686cbe0e3
     url("/img/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
